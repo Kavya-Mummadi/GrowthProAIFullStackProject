@@ -48,25 +48,6 @@ Users can submit their business name and location, which returns simulated SEO c
 | Backend   | Node.js, Express       |   
 ---
 
-## Folder Structure
-```
-GrowthProAI/
-├── backend/ # Node.js + Express backend
-│ ├── index.js # Main server file with endpoints
-│ └── package.json # Backend dependencies
-│
-├── frontend/ # React frontend application
-│ ├── public/ # Public assets
-│ ├── src/ # Source files
-│ │ ├── components/ # Reusable components (Form, Card, Dashboard)
-│ │ ├── context/ # React Context for state management
-│ │ ├── App.js # Main app component
-│ │ ├── index.css # Global styles
-│ │ └── index.js # React entry point
-│ └── package.json # Frontend dependencies
-├── README.md # Project documentation
-└── .gitignore # Files and folders to ignore in Git
-```
 
 ## 🚀 Project Setup Instructions
 
