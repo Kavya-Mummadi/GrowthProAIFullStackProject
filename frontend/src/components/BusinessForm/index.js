@@ -46,7 +46,7 @@ class BusinessForm extends Component {
 
     if (name.trim() && location.trim()) {
       this.setState({ isLoading: true });
-      const response = await fetch("http://localhost:5000/business-data", {
+      const response = await fetch("https://growthproaifullstackproject.onrender.com/business-data", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, location }),
