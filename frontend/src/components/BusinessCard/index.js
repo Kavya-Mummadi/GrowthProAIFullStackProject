@@ -10,7 +10,7 @@ class BusinessCard extends Component {
     this.setState({ isLoading: true });
     const { businessData, setBusinessData } = this.context;
     const response = await fetch(
-      `http://localhost:5000/regenerate-headline?name=${businessData.name}&location=${businessData.location}`
+      `https://growthproaifullstackproject.onrender.com/regenerate-headline?name=${businessData.name}&location=${businessData.location}`
     );
     if (response.ok) {
       const result = await response.json();
